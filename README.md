@@ -2,6 +2,8 @@
 <h1> Flask_hands_on </h1>
  </div>
 
+ ---
+
 This project was created as part of my learning journey during my night skill sessions in college.  Flask is a lightweight WSGI web application framework in Python  
 
 I have separated my learnings into several parts and the corresponding code is present inside a separate folder in the repository .
