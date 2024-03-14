@@ -10,16 +10,32 @@ To set up the Flask application locally, follow these steps:
 
 1. Clone the repository:
 
-       git clone 
+       git clone "https://github.com/Krishnacoder528/flask_hands_on.git"
 
 2. Navigate into the project directory:
 
        cd flask_hands_on
 
-3. Install the required dependencies:
+3. Setup the Virtual Environment
 
-       pip install flask 
+       py -m venv env (or) virtualenv env
 
-4. Run the Flask application:
+4. Activate the Virtual environment
 
-       python app.py
+       env/Scripts/Activate
+
+5. Install the required dependencies:
+
+       pip install flask
+
+6. Move to Respective Folder (Part)
+   
+       cd Part 2 or Part 3 (Corresponding Part  u wish to move)
+
+7. Run the Flask application:
+
+       python app.py (Note : .py file name varies from part to part )
+   
+9. Deactivate the environment
+
+       env/Scripts/deactivate
